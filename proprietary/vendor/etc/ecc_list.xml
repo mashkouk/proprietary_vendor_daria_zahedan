@@ -146,14 +146,10 @@
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 130"/>
     <EccEntry Ecc="123" Category="0" Condition="1" Plmn="732 360"/>
 
-    <!-- Add for All Iran operators -->
-    <EccEntry Ecc="110" Category="1" Condition="0" Plmn="432 FFF"/>
-    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="432 FFF"/>
-    <EccEntry Ecc="112" Category="16" Condition="0" Plmn="432 FFF"/>
-    <EccEntry Ecc="112" Category="16" Condition="1" Plmn="432 FFF"/>
-    <EccEntry Ecc="125" Category="4" Condition="0" Plmn="432 FFF"/>
-    <EccEntry Ecc="125" Category="4" Condition="1" Plmn="432 FFF"/>
-    <EccEntry Ecc="115" Category="2" Condition="0" Plmn="432 FFF"/>
-    <EccEntry Ecc="115" Category="2" Condition="1" Plmn="432 FFF"/>
-
+    <EccEntry Ecc="110" Category="1" Condition="1" Plmn="432 FF"/> 
+    <EccEntry Ecc="115" Category="2" Condition="1" Plmn="432 FF"/> 
+    <EccEntry Ecc="125" Category="4" Condition="1" Plmn="432 FF"/> 
+    <EccEntry Ecc="112" Category="16" Condition="1" Plmn="432 FF"/> 
+    <EccEntry Ecc="911" Category="1" Condition="1" Plmn="432 FF"/> 
+    <EccEntry Ecc="123" Category="2" Condition="1" Plmn="432 FF"/>
 </EccTable>

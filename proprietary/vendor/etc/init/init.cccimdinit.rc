@@ -39,6 +39,7 @@ service ccci_mdinit /vendor/bin/ccci_mdinit 0
 service ccci3_mdinit /vendor/bin/ccci_mdinit 2
     user system
     group radio system
+    disabled
     class core
     oneshot
 

@@ -19,6 +19,7 @@
   <agps_setting
     ignore_si_for_e911="true"
     agps_nvram_enable="true"
+    ignore_emergency_ext_secs_from_framework="true"
     emergency_ext_secs="300"
   />
 
@@ -33,7 +34,7 @@
   />
 
   <up_setting
-    ca_enable="true"
+    imsi_enable="true"
     supl_version="2"
     ut3="30"
     supl_ver_minor="0"

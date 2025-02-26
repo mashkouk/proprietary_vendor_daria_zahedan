@@ -49,11 +49,6 @@
       "Name": "UClampMax",
       "Controller": "schedtune",
       "File": "schedtune.util.max"
-    },
-    {
-      "Name": "FreezerState",
-      "Controller": "freezer",
-      "File": "frozen/freezer.state"
     }
   ],
 
@@ -67,32 +62,6 @@
           {
             "Controller": "schedtune",
             "Path": "background"
-          }
-        }
-      ]
-    },
-    {
-      "Name": "Frozen",
-      "Actions": [
-        {
-          "Name": "JoinCgroup",
-          "Params":
-          {
-            "Controller": "freezer",
-            "Path": "frozen"
-          }
-        }
-      ]
-    },
-    {
-      "Name": "Unfrozen",
-      "Actions": [
-        {
-          "Name": "JoinCgroup",
-          "Params":
-          {
-            "Controller": "freezer",
-            "Path": ""
           }
         }
       ]
@@ -533,32 +502,6 @@
           {
             "Controller": "memory",
             "Path": "system"
-          }
-        }
-      ]
-    },
-    {
-      "Name": "FreezerThawed",
-      "Actions": [
-        {
-          "Name": "SetAttribute",
-          "Params":
-          {
-            "Name": "FreezerState",
-            "Value": "THAWED"
-          }
-        }
-      ]
-    },
-    {
-      "Name": "FreezerFrozen",
-      "Actions": [
-        {
-          "Name": "SetAttribute",
-          "Params":
-          {
-            "Name": "FreezerState",
-            "Value": "FROZEN"
           }
         }
       ]

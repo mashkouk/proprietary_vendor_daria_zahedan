@@ -204,8 +204,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/aibokeh_BSTAI_preview:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_BSTAI_preview \
     vendor/daria/zahedan/proprietary/vendor/etc/aibokeh_BSTAI_still:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_BSTAI_still \
-    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2422:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2422 \
-    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2422_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2422_ENUM \
+    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2321:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2321 \
+    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2321_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2321_ENUM \
     vendor/daria/zahedan/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
     vendor/daria/zahedan/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \

@@ -1094,6 +1094,53 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Preview01.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Preview02.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Preview03.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Coosea_Remosaic.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_E2EHDR_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_E2EHDR_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Face_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Flash_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_HDR_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_HDR_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_HDR_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_N3D_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_N3D_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_N3D_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_P1_YUV.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Scene_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Scene_Capture_4cell.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Scene_HDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Scene_HDR.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Scene_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Scene_Preview_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Scene_Preview_ZSD_Flash.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Scene_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Scene_lowlight.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_120.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_60.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_1080_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_1080_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_2k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_2k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_2k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_2k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_2k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_2k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_2k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_2k_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_4k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_4k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_4k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_4k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Video_4k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Video_4k_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Zoom_Capture01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Zoom_Capture01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Zoom_Capture02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Zoom_Capture02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Zoom_Capture03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Zoom_Capture03.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Zoom_Preview01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Zoom_Preview01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Zoom_Preview02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Zoom_Preview02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40tspmipiraw_Zoom_Preview03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40tspmipiraw_Zoom_Preview03.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
@@ -1104,7 +1151,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
@@ -1115,6 +1161,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw_batch.so \
@@ -1287,6 +1334,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/daria/zahedan/proprietary/vendor/lib/ov16a1q_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov16a1q_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib/ov50a40_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov50a40_mipi_raw_tuning.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/ov50a40tsp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov50a40tsp_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apuware.utils@2.0.so \
@@ -1520,6 +1568,53 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Preview01.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Preview01.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Preview02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Preview02.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Preview03.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Preview03.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Coosea_Remosaic.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_E2EHDR_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_E2EHDR_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Face_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Flash_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Flash_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_HDR_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_HDR_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_HDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_HDR_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_HDR_Reconfig_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_HDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_HDR_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_N3D_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_N3D_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_N3D_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_N3D_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_N3D_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_N3D_Video.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_P1_YUV.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_P1_YUV.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Scene_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Scene_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Scene_Capture_4cell.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Scene_Capture_4cell.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Scene_HDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Scene_HDR.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Scene_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Scene_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Scene_Preview_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Scene_Preview_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Scene_Preview_ZSD_Flash.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Scene_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Scene_lowlight.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_120_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_60_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_1080_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_1080_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_2k.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_2k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_2k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_2k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_2k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_2k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_2k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_2k_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_4k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_4k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_4k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_4k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Video_4k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Video_4k_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Zoom_Capture01.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Zoom_Capture01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Zoom_Capture02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Zoom_Capture02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Zoom_Capture03.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Zoom_Capture03.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Zoom_Preview01.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Zoom_Preview01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Zoom_Preview02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Zoom_Preview02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40tspmipiraw_Zoom_Preview03.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40tspmipiraw_Zoom_Preview03.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDR.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
@@ -1935,6 +2030,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/ov16a1q_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov16a1q_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40_mipi_raw_IdxMgr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40_mipi_raw_tuning.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40tsp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40tsp_mipi_raw_IdxMgr.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40tsp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40tsp_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \

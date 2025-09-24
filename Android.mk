@@ -4,21 +4,10 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),zahedan)
+ifneq ($(filter zahedan algiz,$(TARGET_DEVICE)),)
 
-$(call add-radio-file-sha1-checked,radio/cam_vpu1.img,7966caf69c8bb0def55e83e8937738527a37a8df)
-$(call add-radio-file-sha1-checked,radio/cam_vpu2.img,b172f804cfd16d4bc6b4e532ed45c72205bfe122)
-$(call add-radio-file-sha1-checked,radio/cam_vpu3.img,a010571f81f0db8e0994c826e6da8163d6c7ade2)
-$(call add-radio-file-sha1-checked,radio/dpm.img,ce7b5bb60a878f10f143d712252f5f9ffc191015)
-$(call add-radio-file-sha1-checked,radio/gz.img,9dcdf2906d137df88a538fa9f8c87fbdb6ebba83)
-$(call add-radio-file-sha1-checked,radio/lk.img,7f6c8686b3d59787ed21a21166abe1b803272aeb)
-$(call add-radio-file-sha1-checked,radio/mcupm.img,81b7cb2144ab893c15da1b50e7deef0f0eeef1cd)
-$(call add-radio-file-sha1-checked,radio/md1img.img,0ad51edc05ce2b5429f3e42889fdc06692cfc345)
-$(call add-radio-file-sha1-checked,radio/pi_img.img,c810f5a0934e681264f2546f1a6424d2fce663c5)
-$(call add-radio-file-sha1-checked,radio/preloader.img,512b2a678675e015ce5743af14c1401c49060a0a)
-$(call add-radio-file-sha1-checked,radio/scp.img,69063d6422b2b57370f190c58c3c15ea69ec7243)
-$(call add-radio-file-sha1-checked,radio/spmfw.img,c2b30373d8aaa116f89f185e71b4bbb936890239)
-$(call add-radio-file-sha1-checked,radio/sspm.img,502c2579990f5f792ff8cf9af252632d6637194e)
-$(call add-radio-file-sha1-checked,radio/tee.img,8677ff798c784f174c1eaf0901830aed660b0ad2)
+RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/$(TARGET_DEVICE)/*)
+$(foreach f, $(notdir $(RADIO_FILES)), \
+    $(call add-radio-file,radio/$(TARGET_DEVICE)/$(f)))
 
 endif
